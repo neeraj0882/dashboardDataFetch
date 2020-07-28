@@ -13,7 +13,7 @@ import datetime
 
 RE_WSP = re.compile(r'\s+', re.U)
 
-bamboo_base_url = 'https://dcbamboo.service.dev:8443'
+bamboo_base_url = 'https://bamboo.service.dev:portno'
 bamboo_api_url = bamboo_base_url + '/rest/api/latest'
 bamboo_test_url = bamboo_base_url + '/browse/'
 
